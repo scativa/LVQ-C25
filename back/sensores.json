@@ -1,0 +1,58 @@
+# Todos los valores son texto?
+{
+    "motor1": {
+        "Temp" : "63",
+        "RPM" : "5639"
+    },
+    "motor2": {
+        "Temp" : "63",
+        "RPM" : "8285"
+    },
+    "cisterna": {
+        "Llenado": "250"
+    }, 
+    "Bateria": {
+        "Carga": "98"
+    }
+}
+
+{
+    "motor1": {
+        "Temp" : {
+            "unidad": "grados",
+            "min": "-3",
+            "max": "500"
+        }, 
+        "RPM" : {
+            "unidad": "rpm",
+            "min": "0",
+            "max": "5000"
+        },
+    },
+    "motor2": {
+        "Temp" : {
+            "unidad": "grados",
+            "min": "15",
+            "max": "750"
+        }, 
+        "RPM" : {
+            "unidad": "rpm",
+            "min": "0",
+            "max": "7500"
+        },
+    },
+    "cisterna": {
+        "Llenado": {
+            "unidad": "litros",
+            "min": "0",
+            "max": "500"
+        },
+    }, 
+    "Bateria": {
+        "Carga": {
+            "unidad": "%",
+            "min": "0",
+            "max": "100"
+        },
+    }
+}

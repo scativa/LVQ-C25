@@ -1,0 +1,5 @@
+{
+  "port": "3003",
+  "mongoUrl": "mongodb+srv://ppca_cnea:gadolineo1982@cluster0.4r99gz4.mongodb.net/?retryWrites=true&w=majority",
+  "usarBaseFake": false
+}
